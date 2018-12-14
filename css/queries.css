@@ -1,0 +1,22 @@
+@media only screen and (max-width: 767px) {
+    .navbar li a:hover,
+    .navbar li a:active{
+        border-bottom: transparent;
+
+    }
+
+    .navbar li a:link, .navbar li a:visited {
+        color: white;
+        text-decoration: none;
+        border-bottom: 0px solid transparent !important;
+        margin: auto 20px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .social-media{
+        text-align:left;
+        padding-right:5px;
+        margin-top: 10px;
+    }
+}
