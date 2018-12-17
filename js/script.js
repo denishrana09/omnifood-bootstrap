@@ -17,7 +17,7 @@ $(document).ready(function() {
             $('#mobile-pic').addClass('animated fadeInUp delay-1s');
         }
     }, {
-      offset: '30%;'
+      offset: '200px;'
     });
 
     $('.cities-section').waypoint(function(direction) {

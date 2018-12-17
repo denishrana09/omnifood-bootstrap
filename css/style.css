@@ -33,6 +33,7 @@ a{
 
 #main-nav{
     background: transparent;
+    z-index: 100;
 }
 
 .navbar li a:link,
@@ -47,6 +48,14 @@ a{
 .navbar li a:active{
     border-bottom: #e67e22 2px solid;
     transition: border-bottom 0.2s, color 0.2s;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: white;
 }
 
 #main-nav.my-nav{
@@ -73,29 +82,30 @@ a{
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #e67e22;
-    border-color: #e67e22;
+    color: #fff !important;
+    background-color: #e67e22 !important;
+    border-color: #e67e22 !important;
 }
 
 .btn-outline-primary {
-    color: #e67e22;
-    background-color: transparent;
-    background-image: none;
-    border-color: #e67e22;
+    color: #e67e22 !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border-color: #e67e22 !important;
 }
 
 .btn-primary:hover,
 .btn-primary:active {
-    background-color: #cf6d17;
-    border: 1px solid #cf6d17;
+    background-color: #cf6d17 !important;
+    border: 1px solid #cf6d17 !important;
 }
 
 .btn-outline-primary:hover,
-.btn-outline-primary:active {
-    background-color: #cf6d17;
-    border: 1px solid #cf6d17;
-    color: #fff;
+.btn-outline-primary:active,
+.btn-outline-primary:focus {
+    background-color: #cf6d17 !important;
+    border: 1px solid #cf6d17 !important;
+    color: #fff !important;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
@@ -264,9 +274,7 @@ blockquote{
 
 .plans-section{
     background : rgb(241, 237, 237);
-    /* padding: 50px; */
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding: 40px 20px;
 }
 
 .plans-section h2{
@@ -284,7 +292,7 @@ blockquote{
 }
 
 .customer-contact form{
-    width:80%;
+    width:530px;
     margin-left:auto;
     margin-right:auto;
     margin-top:20px;
